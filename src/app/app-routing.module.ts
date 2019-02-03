@@ -12,8 +12,20 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
+     path: 'instalacao', 
+     loadChildren: './instalacao/instalacao.module#InstalacaoPageModule'
+   },
+  { 
+    path: 'layout', 
+    loadChildren: './layout/layout.module#LayoutPageModule' 
+  },
+  { 
+    path: 'layout-header-footer', 
+    loadChildren: './layout-header-footer/layout-header-footer.module#LayoutHeaderFooterPageModule'
+   },
+  { 
+    path: 'layout-tabs', 
+    loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' 
   }
 ];
 
