@@ -23,10 +23,9 @@ const routes: Routes = [
     path: 'layout-header-footer', 
     loadChildren: './layout-header-footer/layout-header-footer.module#LayoutHeaderFooterPageModule'
    },
-  { 
-    path: 'layout-tabs', 
-    loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' 
-  }
+  { path: 'layout-tabs', loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
+  { path: 'layout-menu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
+  { path: 'layout-split', loadChildren: './layout-split/layout-split.module#LayoutSplitPageModule' }
 ];
 
 @NgModule({
