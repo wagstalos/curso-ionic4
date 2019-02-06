@@ -24,6 +24,11 @@ export class AppComponent {
       title: 'Exemplos',
       url: '/layout',
       icon: 'albums'
+    },
+    {
+      title: 'Componentes',
+      url: '/componentes',
+      icon: 'hammer'
     }
   ];
 
