@@ -25,7 +25,11 @@ const routes: Routes = [
    },
   { path: 'layout-tabs', loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
   { path: 'layout-menu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
-  { path: 'layout-split', loadChildren: './layout-split/layout-split.module#LayoutSplitPageModule' }
+  { path: 'layout-split', loadChildren: './layout-split/layout-split.module#LayoutSplitPageModule' },
+  { path: 'layout-grid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' },
+
+
+
 ];
 
 @NgModule({

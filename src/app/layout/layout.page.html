@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -8,8 +8,9 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-button expand="full" (click)="openLayoutHeaderFooter()">Header e footer</ion-button>
-  <ion-button expand="full" (click)="openLayoutTabs()">Tabs</ion-button>
-  <ion-button expand="full" (click)="openLayoutMenu()">Menu</ion-button>
-  <ion-button expand="full" (click)="openLayoutSplit()">Split Pane</ion-button>
+  <ion-button expand="full" (click)="abrirPagina('layout-header-footer')">Header e footer</ion-button>
+  <ion-button expand="full" (click)="abrirPagina('layout-tabs')">Tabs</ion-button>
+  <ion-button expand="full" (click)="abrirPagina('layout-menu')">Menu</ion-button>
+  <ion-button expand="full" (click)="abrirPagina('layout-split')">Split Pane</ion-button>
+  <ion-button expand="full" (click)="abrirPagina('layout-grid')">Grid</ion-button>
 </ion-content>
